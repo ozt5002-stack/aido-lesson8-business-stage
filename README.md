@@ -12,8 +12,9 @@
 | שלב | Branch | מה נמצא בו |
 |---|---|---|
 | 1. Design | `design/spec` | [docs/01-design.md](docs/01-design.md): מה בונים, למי, ואיך נדע שזה עבד |
+| 1. Design | `design/architecture` | [docs/01b-architecture.md](docs/01b-architecture.md): רכיבים, זרימת מידע והחלטות ארכיטקטורה |
 | 2. Plan | `plan/roadmap` | [docs/02-plan.md](docs/02-plan.md) ו-Issues ב-GitHub |
-| 3. Manage | `manage/workflow` | [CONTRIBUTING.md](CONTRIBUTING.md), תבניות ל-Issues ול-Pull Requests |
+| 3. Manage | `manage/workflow` | [CONTRIBUTING.md](CONTRIBUTING.md), תבניות ל-Issues ול-Pull Requests, ולוח משימות ב-GitHub Projects |
 | 4. Build | `feature/scoring` | [src/score.js](src/score.js), [index.html](index.html) |
 | 5. Test/Eval | `test/eval` | [tests/](tests), [evals/](evals) ובדיקה אוטומטית ב-GitHub Actions |
 
