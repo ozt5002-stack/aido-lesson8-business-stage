@@ -1,0 +1,57 @@
+[
+  {
+    "name": "עסק א׳ מתרגיל הכיתה: רשת של 4 חנויות, הבעלים עונה לכל טלפון, מלאי באקסל",
+    "answers": {
+      "strategy": [1, 1, 1, 1],
+      "management": [1, 1, 1, 1],
+      "systems": [1, 1, 1, 2],
+      "people": [1, 1, 1, 1],
+      "finance": [1, 1, 1, 1]
+    },
+    "expected": "firefighter"
+  },
+  {
+    "name": "עסק ב׳ מתרגיל הכיתה: 60 עובדים, סמנכ\"ל לכל מחלקה, יעדים רבעוניים, כל אחד עם אקסל משלו",
+    "answers": {
+      "strategy": [2, 2, 2, 2],
+      "management": [2, 2, 2, 2],
+      "systems": [2, 2, 1, 1],
+      "people": [2, 2, 2, 2],
+      "finance": [2, 2, 2, 2]
+    },
+    "expected": "builder"
+  },
+  {
+    "name": "עסק ג׳ מתרגיל הכיתה: דירקטוריון רבעוני, דשבורד לכל מחלקה, עובדים משפרים תהליכים",
+    "answers": {
+      "strategy": [3, 3, 3, 3],
+      "management": [3, 3, 3, 3],
+      "systems": [3, 3, 2, 3],
+      "people": [3, 3, 2, 3],
+      "finance": [3, 2, 3, 3]
+    },
+    "expected": "inspector"
+  },
+  {
+    "name": "מקרה גבול: ציון 33, עדיין כבאי",
+    "answers": {
+      "strategy": [2, 2, 2, 2],
+      "management": [2, 2, 2, 1],
+      "systems": [2, 2, 1, 1],
+      "people": [2, 2, 1, 1],
+      "finance": [2, 2, 1, 1]
+    },
+    "expected": "firefighter"
+  },
+  {
+    "name": "מקרה גבול: ציון 47, כבר פקח",
+    "answers": {
+      "strategy": [3, 3, 3, 3],
+      "management": [3, 3, 2, 2],
+      "systems": [2, 2, 2, 2],
+      "people": [2, 2, 2, 2],
+      "finance": [3, 2, 2, 2]
+    },
+    "expected": "inspector"
+  }
+]
