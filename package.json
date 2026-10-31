@@ -1,0 +1,10 @@
+{
+  "name": "aido-lesson8-business-stage",
+  "version": "1.0.0",
+  "description": "Business stage check (firefighter / builder / inspector) from the 20-question AIDO questionnaire",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node --test"
+  }
+}
